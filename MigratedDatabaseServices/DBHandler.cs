@@ -6,7 +6,6 @@ using Microsoft.Extensions.Options;
 using MigratedDatabaseServices.Data;
 using NATS.Client.JetStream.Models;
 using NATS.Net;
-using Tier = MigratedDatabaseServices.Data.Tier;
 
 namespace MigratedDatabaseServices;
 

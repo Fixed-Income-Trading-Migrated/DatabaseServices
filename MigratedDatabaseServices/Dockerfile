@@ -10,4 +10,4 @@ FROM mcr.microsoft.com/dotnet/runtime:9.0
 WORKDIR /app
 COPY --from=build /out .
 
-ENTRYPOINT ["dotnet", "MigratedBook.dll"]
+ENTRYPOINT ["dotnet", "MigratedDatabaseServices.dll"]
